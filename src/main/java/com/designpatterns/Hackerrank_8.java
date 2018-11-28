@@ -16,7 +16,6 @@ public class Hackerrank_8 {
 		}
 
 		miniMaxSum(arr);
-		System.out.println("Product Interchangeability Equivalence evidence".toLowerCase().replaceAll(" ", "-").concat(".pdf"));
 	}
 
 	private static void miniMaxSum(int[] arr) {
@@ -30,6 +29,7 @@ public class Hackerrank_8 {
 		System.out.println(minSum + " " + maxSum);
 	}
 
+	// long because sum of ints can be more then int size
 	private static long sum(int[] ints) {
 		long rez = 0;
 
