@@ -1,5 +1,10 @@
 package com.designpatterns.observer;
 
+import com.designpatterns.observer.Subject.WeatherDataObject;
+import com.designpatterns.observer.observer.CurrentCondition;
+import com.designpatterns.observer.observer.Forecast;
+import com.designpatterns.observer.observer.StatisticData;
+
 public class Main {
 	public static void main(String[] args) {
 		WeatherDataObject weatherDataObject = new WeatherDataObject();
