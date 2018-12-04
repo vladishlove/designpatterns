@@ -1,36 +1,27 @@
 package com.designpatterns;
 
-import java.util.Arrays;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Hackerrank_9 {
 
 
-	public static void main(String[] args) {
-		int[] arr = new int[5];
-		int a = 1;
-		for (int i = arr.length - 2; i >= 0; i--) {
-//			arr[i] = a + 1;
-			arr[i] = 5;
-			a++;
-		}
-		arr[arr.length - 1] = 5;
+	public static void main(String[] args) throws ParseException {
+		String time = "07:05:45PM";
 
-		int i1 = birthdayCakeCandles(arr);
-		System.out.println(i1);
+		String s = timeConversion(time);
+		System.out.println(s);
+
+
 	}
 
-	static private int birthdayCakeCandles(int[] arr) {
-		int rez = 0;
-		Arrays.sort(arr);
-		int arrayLastElementIndex = arr.length - 1;
-		int maxValue = arr[arrayLastElementIndex];
+	static private String timeConversion(String time) throws ParseException {
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh:mm:ssa");
+		SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("HH:mm:ss");
 
-		int i = 0;
-		while (i < arr.length && arr[arrayLastElementIndex - i] == maxValue) {
-			rez++;
-			i++;
-		}
+		Date parse = simpleDateFormat.parse(time);
 
-		return rez;
+		return simpleDateFormat2.format(parse);
 	}
 }
