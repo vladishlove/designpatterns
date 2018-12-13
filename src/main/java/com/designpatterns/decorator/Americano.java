@@ -1,4 +1,4 @@
-package com.designpatterns.Decorator;
+package com.designpatterns.decorator;
 
 public class Americano implements Component {
 	@Override

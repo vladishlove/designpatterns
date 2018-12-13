@@ -1,4 +1,4 @@
-package com.designpatterns.Decorator;
+package com.designpatterns.decorator;
 
 public class ComponentDecorator implements Component {
 	private Component component;

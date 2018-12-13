@@ -1,5 +1,7 @@
 package com.designpatterns;
 
+import java.util.List;
+
 public class Hackerrank_17 {
 
 	public static void main(String[] args) {
@@ -32,5 +34,10 @@ public class Hackerrank_17 {
 				return true;
 			} else return year % 4 == 0 && year % 100 != 0;
 		} else return year % 4 == 0;
+	}
+
+	static void bonAppetit(List<Integer> bill, int k, int b) {
+
+
 	}
 }

@@ -1,4 +1,4 @@
-package com.designpatterns.Decorator;
+package com.designpatterns.decorator;
 
 public class Milk extends ComponentDecorator {
 	public Milk(Component component) {
