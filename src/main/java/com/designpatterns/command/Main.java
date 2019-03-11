@@ -39,9 +39,9 @@ public class Main {
 		remoteControl.addCommandToFirstEmptySlot(ceilingFanOffCommand);
 
 		remoteControl.pressTheButton(1);
-//		remoteControl.pressTheButton(1);
-//		remoteControl.pressTheButton(1);
-//		remoteControl.pressTheButton(1);
+		remoteControl.pressTheButton(1);
+		remoteControl.pressTheButton(1);
+		remoteControl.pressTheButton(1);
 		remoteControl.rollBack();
 
 		remoteControl.pressTheButton(2);
