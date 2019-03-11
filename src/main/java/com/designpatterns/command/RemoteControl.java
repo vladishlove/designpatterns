@@ -17,6 +17,7 @@ public class RemoteControl {
 		for (int i = 0; i < slotsSize; i++) {
 			if (slots[i] == null) {
 				emptySlotIndex = i;
+				break;
 			}
 		}
 
