@@ -7,6 +7,8 @@ import com.designpatterns.command.domain.Light;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
+		int g = 1;
+		System.out.println(g);
 		Light light = new Light();
 		GarageDoor garageDoor = new GarageDoor();
 		CeilingFan ceilingFan = new CeilingFan();

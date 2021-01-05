@@ -1,4 +1,4 @@
-package com.designpatterns;
+package com.hackerrank;
 
 import java.util.HashMap;
 import java.util.Map;

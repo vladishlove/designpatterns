@@ -1,4 +1,4 @@
-package com.designpatterns;
+package com.hackerrank;
 
 import java.text.ParseException;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.designpatterns;
+package com.hackerrank;
 
 import java.util.Arrays;
 import java.util.List;

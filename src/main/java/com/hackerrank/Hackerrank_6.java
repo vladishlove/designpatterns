@@ -1,4 +1,4 @@
-package com.designpatterns;
+package com.hackerrank;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

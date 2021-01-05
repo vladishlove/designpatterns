@@ -1,4 +1,4 @@
-package com.designpatterns;
+package com.hackerrank;
 
 public class Hackerrank_14 {
 	static int highestScore;
