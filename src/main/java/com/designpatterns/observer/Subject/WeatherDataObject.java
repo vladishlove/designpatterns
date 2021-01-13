@@ -1,13 +1,12 @@
 package com.designpatterns.observer.Subject;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Observable;
-import java.util.Observer;
 
 @Data
+@EqualsAndHashCode(callSuper=false)
 public class WeatherDataObject extends Observable {
 	private int temperature;
 	private int humidity;
